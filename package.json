@@ -1,7 +1,7 @@
 {
     "name": "txnfs-js",
     "description": "A nodejs module to read/write files in a transactional way.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": "Ali Ismael <ali@gaaiat.com>",
     "preferGlobal": false,
     "contributors": [
@@ -49,4 +49,3 @@
     "readmeFilename": "README.md"
 
 }
-
