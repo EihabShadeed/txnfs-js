@@ -1,0 +1,52 @@
+{
+    "name": "txnfs-js",
+    "description": "A nodejs module to read/write files in a transactional way.",
+    "version": "0.1.0",
+    "author": "Ali Ismael <ali@gaaiat.com>",
+    "preferGlobal": false,
+    "contributors": [
+        {
+            "name": "Ali Ismael",
+            "email": "ali@gaaiat.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:gaaiatinc/txnfs-js.git"
+    },
+    "main": "./index",
+    "engines": {
+        "node": ">= 0.8.21"
+    },
+    "dependencies": {
+        "environment-inc": "~0.1",
+        "async": "~0.9",
+        "selectn": "~0.9.6"
+    },
+    "peerDependencies": {
+        "servicecore": "^1.0.0"
+    },
+    "devDependencies": {
+        "mocha": "~1.17.0",
+        "express": "~3.4.7",
+        "supertest": "~0.8.3",
+        "chai": "~1.6.0",
+        "jshint": "^2",
+        "auto-istanbul": "*"
+    },
+    "homepage": "git@github.com:gaaiatinc/txnfs-js.git",
+
+    "publishConfig": {
+        "registry": "http://npmjs.org"
+    },
+
+    "keywords": [
+        "File system",
+        "nodejs",
+        "Transaction"
+    ],
+    "license": "MIT",
+    "readmeFilename": "README.md"
+
+}
+

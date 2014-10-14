@@ -26,3 +26,39 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# Project Specifics #
+#####################
+.project
+.classpath
+.idea
+.settings/*
+*.log
+node_modules
+/logs
+build/
+scripts/
+temp/
+
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
