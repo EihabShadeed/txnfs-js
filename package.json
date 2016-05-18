@@ -1,51 +1,52 @@
 {
-    "name": "txnfs-js",
-    "description": "A nodejs module to read/write files in a transactional way.",
-    "version": "0.4.0",
-    "author": "Ali Ismael <ali@gaaiat.com>",
-    "preferGlobal": false,
-    "contributors": [
-        {
-            "name": "Ali Ismael",
-            "email": "ali@gaaiat.com"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:gaaiatinc/txnfs-js.git"
-    },
-    "main": "./index",
-    "engines": {
-        "node": ">= 0.8.21"
-    },
-    "dependencies": {
-        "environment-inc": "~0.1",
-        "async": "~0.9",
-        "selectn": "~0.9.6"
-    },
-    "peerDependencies": {
-        "servicecore": "^1.0.0"
-    },
-    "devDependencies": {
-        "mocha": "~1.17.0",
-        "express": "~3.4.7",
-        "supertest": "~0.8.3",
-        "chai": "~1.6.0",
-        "jshint": "^2",
-        "auto-istanbul": "*"
-    },
-    "homepage": "git@github.com:gaaiatinc/txnfs-js.git",
+  "name": "txnfs-js",
+  "description": "A nodejs module to read/write files in a transactional way.",
+  "version": "0.4.1",
+  "author": "Ali Ismael <ali@gaaiat.com>",
+  "preferGlobal": false,
+  "contributors": [{
+    "name": "Ali Ismael",
+    "email": "ali@gaaiat.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gaaiatinc/txnfs-js.git"
+  },
+  "main": "./index",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "async": "~0.9",
+    "selectn": "~0.9.6"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.1.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "mocha": "^2.2.4"
+  },
+  "homepage": "git@github.com:gaaiatinc/txnfs-js.git",
 
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
-    },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
 
-    "keywords": [
-        "File system",
-        "nodejs",
-        "Transaction"
-    ],
-    "license": "MIT",
-    "readmeFilename": "README.md"
-
+  "keywords": [
+    "File system",
+    "nodejs",
+    "Transaction"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md"
 }
